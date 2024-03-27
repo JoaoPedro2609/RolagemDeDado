@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography;
-Console.WriteLine("--- Rolagem de Dado ---");
+Console.WriteLine("--- Rolagem de Dado ---\n");
 
-Console.WriteLine("20 faces");
-
-Console.WriteLine(RandomNumberGenerator.GetInt32(1, 21));
+Console.WriteLine("Quantidade de Faces: 20");
+Console.Write("Rolagem: ");
+Console.Write(RandomNumberGenerator.GetInt32(1, 21));
